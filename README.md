@@ -15,7 +15,7 @@ Note: The API is not connected to a database, so the data is not persisted.
 
 1. Clone the repository
 2. Run `go run main.go`
-3. open Postman and test the API using the following endpoints:
+3. Open Postman and test the API using the following endpoints:
     - Create a new movie: `POST http://localhost:5000/movies`
     - Get a movie by ID: `GET http://localhost:5000/movies/{id}`
     - Get all movies: `GET http://localhost:5000/movies`
